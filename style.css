@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background: #dedede;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .gameboard {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;
+  }
+
+  .color {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: left;
+  }
+
+  .celeste {
+    background: #22a6b3;
+  }
+
+  .celeste.light {
+    background: #7ed6df;
+    -webkit-box-shadow: 0px 0px 31px 10px rgba(34,166,179,1);
+-moz-box-shadow: 0px 0px 31px 10px rgba(34,166,179,1);
+box-shadow: 0px 0px 31px 10px rgba(34,166,179,1);
+  }
+
+  .violeta {
+    background: #be2edd;
+  }
+
+  .violeta.light {
+    background: #e056fd;
+    -webkit-box-shadow: 0px 0px 31px 10px rgba(190,46,221,1);
+-moz-box-shadow: 0px 0px 31px 10px rgba(190,46,221,1);
+box-shadow: 0px 0px 31px 10px rgba(190,46,221,1);
+  }
+
+  .naranja {
+    background: #f0932b;
+  }
+
+  .naranja.light {
+    background: #ffbe76;
+    -webkit-box-shadow: 0px 0px 31px 10px rgba(240,147,43,1);
+-moz-box-shadow: 0px 0px 31px 10px rgba(240,147,43,1);
+box-shadow: 0px 0px 31px 10px rgba(240,147,43,1);
+  }
+
+  .verde {
+    background: #6ab04c;
+  }
+
+  .verde.light {
+    background: #badc58;
+    -webkit-box-shadow: 0px 0px 31px 10px rgba(106,176,76,1);
+-moz-box-shadow: 0px 0px 31px 10px rgba(106,176,76,1);
+box-shadow: 0px 0px 31px 10px rgba(106,176,76,1);
+  }
+
+  .btn-start {
+    width: 400px;
+    height: 100px;
+    background: #ecf0f1;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 200px);
+  }
+
+  .hide {
+    display: none;
+  }
